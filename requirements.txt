@@ -1,0 +1,9 @@
+django-jazzmin
+Django
+pandas
+openpyxl
+Pillow
+dj-database-url
+gunicorn
+django-import-export
+psycopg2 
