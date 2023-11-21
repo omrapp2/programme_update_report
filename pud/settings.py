@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-=hzzn3)b&8=535v1kzl=ybv4@*(zl*wbejr%5qk_o^p8c9qemr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['programme-update-report.onrender.com']
+ALLOWED_HOSTS = ['programme-update-report.onrender.com', '*']
 
 
 # Application definition
@@ -131,6 +131,8 @@ MEDIA_URL = 'media/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SECURE_FRAME_EMBED = True
 
 JAZZMIN_SETTINGS = {
     "site_brand": "Program Reporting",
