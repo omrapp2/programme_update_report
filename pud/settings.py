@@ -145,4 +145,9 @@ JAZZMIN_SETTINGS = {
     },
 
     "show_ui_builder": False,
+
+    "topmenu_links": [
+        # external url that opens in a new window (Permissions can be added)
+        {"name": "Analysis", "url": "https://lookerstudio.google.com/reporting/30000691-0b81-4bdc-89a6-d36ab9dd44e5/page/p_rx0wn0g9ad", "new_window": True},
+    ],
 }

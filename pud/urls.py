@@ -20,8 +20,8 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from epb import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('admin/', admin.site.urls),
+    # path('', views.index, name='index'),
+    path('', admin.site.urls),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
