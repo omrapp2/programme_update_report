@@ -9,4 +9,5 @@ class ProgramAdmin(ImportExportModelAdmin, admin.ModelAdmin):
     readonly_fields = ('user', 'Total_Participants', 'Total_Activity_Expense')
     exclude = ('Region', 'Local_Area', 'Programmatic_Subtheme')
 
+
 admin.site.register(Program, ProgramAdmin)
